@@ -144,3 +144,11 @@ attribute "hadoop/ha_enabled",
 attribute "hadoop/yarn/rt",
 :display_name => "Hadoop Resource Tracker enabled on this nodegroup",
 :type => 'string'
+
+attribute "hadoop/s3n/accessKey",
+:display_name => "S3n Access Key",
+:type => 'string'
+
+attribute "hadoop/s3n/privateAccessKey",
+:display_name => "Private S3n Access Key",
+:type => 'string'
