@@ -133,3 +133,6 @@ default[:hadoop][:user_envs]               = "true"
 default[:hadoop][:logging_level]           = "WARN"
 default[:hadoop][:nn][:direct_memory_size] = 50
 default[:hadoop][:ha_enabled]              = "false"
+
+default[:hadoop][:s3n][:privateAccessKey] = ""
+default[:hadoop][:s3n][:accessKey] = ""
