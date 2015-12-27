@@ -11,13 +11,13 @@
     <name>fs.s3n.impl</name>
     <value>org.apache.hadoop.fs.s3native.NativeS3FileSystem</value>
   </property>
-  <property>
+  <property
     <name>fs.s3n.awsAccessKeyId</name>
-    <value><%= @s3nAccessKey %></value>
+    <value><%= node[:hadoop][:s3n][:accessKey] %></value>
   </property>
   <property>
     <name>fs.s3n.awsSecretAccessKey</name>
-    <value><%= @s3nAccessKey %></value>
+    <value><%= node[:hadoop][:s3n][:privateAccessKey] %></value>
   </property>
 <property>
   <name>hadoop.tmp.dir</name>
